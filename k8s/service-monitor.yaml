@@ -6,6 +6,8 @@ metadata:
   labels:
     release: monitoring # Matches the name of your Helm install
 spec:
+  namespaceSelector:
+    any: true
   selector:
     matchLabels:
       monitoring: "enabled" # Tells Prometheus to look for this label
