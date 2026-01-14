@@ -29,6 +29,6 @@ spec:
     app: inventory
   ports:
     - name: web
-    - protocol: TCP
+      protocol: TCP
       port: 5000
       targetPort: 5000

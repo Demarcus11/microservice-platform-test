@@ -32,6 +32,6 @@ spec:
     app: orders
   ports:
     - name: web # <--- IMPORTANT: Name the port "web"
-    - protocol: TCP
+      protocol: TCP
       port: 8000
       targetPort: 8000
